@@ -32,7 +32,10 @@ const palette = {
 }
 
 const theme = createTheme({
-  colors: {},
+  colors: {
+    textBlack: palette.black,
+    textGray: palette.grayDark
+  },
   spacing: {
     none: 0,
     xs: scale(2),
@@ -41,7 +44,18 @@ const theme = createTheme({
     l: scale(12)
   },
   breakpoints: {},
-  textVariants: {}
+  textVariants: {
+    tileTitle: {
+      fontSize: scale(14),
+      fontWeight: "600",
+      color: "textBlack"
+    },
+    tileSubtitle: {
+      fontSize: scale(12),
+      fontWeight: "400",
+      color: "textGray"
+    }
+  }
 })
 
 const themeDark: Theme = {
