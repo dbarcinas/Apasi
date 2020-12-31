@@ -1,3 +1,5 @@
 export {default as Icon} from "./Icon"
 export {default as Box} from "./Box"
 export {default as Text} from "./Text"
+export {default as TappableOpacity} from "./TappableOpacity"
+export {default as TappableScale} from "./TappableScale"
