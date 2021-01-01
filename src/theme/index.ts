@@ -45,22 +45,22 @@ const theme = createTheme({
   },
   breakpoints: {},
   textVariants: {
-    title1: {
+    h1: {
       fontSize: scale(28),
       fontWeight: "700",
       color: "textBlack"
     },
-    title2: {
+    h2: {
       fontSize: scale(24),
       fontWeight: "700",
       color: "textBlack"
     },
-    title3: {
+    h3: {
       fontSize: scale(20),
       fontWeight: "700",
       color: "textBlack"
     },
-    title4: {
+    h4: {
       fontSize: scale(18),
       fontWeight: "700",
       color: "textBlack"
