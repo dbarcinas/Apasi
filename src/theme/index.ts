@@ -45,6 +45,32 @@ const theme = createTheme({
   },
   breakpoints: {},
   textVariants: {
+    title1: {
+      fontSize: scale(28),
+      fontWeight: "700",
+      color: "textBlack"
+    },
+    title2: {
+      fontSize: scale(24),
+      fontWeight: "700",
+      color: "textBlack"
+    },
+    title3: {
+      fontSize: scale(20),
+      fontWeight: "700",
+      color: "textBlack"
+    },
+    title4: {
+      fontSize: scale(18),
+      fontWeight: "700",
+      color: "textBlack"
+    },
+    body: {
+      fontSize: scale(14),
+      fontWeight: "400",
+      color: "textBlack",
+      lineHeight: scale(18)
+    },
     tileTitle: {
       fontSize: scale(14),
       fontWeight: "600",
